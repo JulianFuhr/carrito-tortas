@@ -1,0 +1,38 @@
+[
+    {
+      "precio": 3500,
+      "id": 1,
+      "title": "Torta Among-us",
+      "thumbnailUrl": "assets/Among us.png"
+    },
+    {
+      "precio": 3300,
+      "id": 2,
+      "title": "Torta de Princesa",
+      "thumbnailUrl": "assets/Torta princesa.png"
+    },
+    {
+      "precio": 4100,
+      "id": 3,
+      "title": "Torta de Sirenas",
+      "thumbnailUrl": "assets/aqua.png"
+    },
+    {
+      "precio": 3500,
+      "id": 4,
+      "title": "Torta de Cuborubik",
+      "thumbnailUrl": "assets/rubik.png"
+    },
+    {
+      "precio": 1000,
+      "id": 5,
+      "title": "Torta PepaPig",
+      "thumbnailUrl": "assets/Pepa.png"
+    },
+    {
+      "precio": 1500,
+      "id": 6,
+      "title": "Torta de león",
+      "thumbnailUrl": "assets/leon.png"
+    }
+  ]
