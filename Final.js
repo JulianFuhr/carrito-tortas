@@ -22,17 +22,17 @@ items.addEventListener("click", (e) => {
   btnAccion(e);
 });
 
-const fetchData = async () => {
-  try {
-    const res = await fetch("api.json");
-    const data = await res.json();
-    pintarCards(data);
-  } catch (error) {
-    console.log(error);
-  }
-};
+// const fetchData = async () => {
+//   try {
+//     const res = await fetch("api.json");
+//     const data = await res.json();
+//     pintarCards(data);
+//   } catch (error) {
+//     console.log(error);
+//   }
+// };
 
-const fetchDataDePrueba = () => {
+const fetchData = () => {
   const res = fetch("api.json")
     .then((res) => res.json())
     .then((data) => pintarCards(data))
