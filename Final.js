@@ -32,6 +32,13 @@ const fetchData = async () => {
   }
 };
 
+const fetchDataDePrueba = () => {
+  const res = fetch("api.json")
+    .then((res) => res.json())
+    .then((data) => pintarCards(data))
+    .catch((error) => console.log(error));
+};
+
 const pintarCards = (data) => {
   data.forEach((producto) => {
     templateCard.querySelector("h5").textContent = producto.title;
